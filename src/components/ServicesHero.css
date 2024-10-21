@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .center-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .center-image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .surrounding-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .line {
+    position: absolute;
+    width: 2px;
+    background: black;
+    transform-origin: top;
+  }
+  
+  .line.top {
+    top: 0;
+  }
+  
+  .line.bottom {
+    bottom: 0;
+  }
+  
